@@ -10,6 +10,8 @@ Installation
 npm i osas-string-utils
 ```
 
+## Random Strings
+
 Generate Random Strings Example
 
 test.js
@@ -72,6 +74,8 @@ main();
 
 ```
 
+
+## String To Sentence Case
 
 Convert String to Sentence Case Example
 
