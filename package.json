@@ -1,5 +1,5 @@
 {
-  "name": "string-utils",
+  "name": "osas-string-utils",
   "version": "1.0.1",
   "description": "A String Utility Package",
   "main": "index.js",
