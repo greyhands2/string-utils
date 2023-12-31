@@ -24,21 +24,21 @@ const main = async() => {
     // using callbacks
 
   //To Generate only alphabets, you must supply the character "b" as the function's arguement
-  randAlphaNumericStringGen(8, "b", (err, res)=>{
+  randStringGen(8, "b", (err, res)=>{
     if(err) console.log(err);
     else console.log(res);
   
   });
 
 // To generate only number digits you must supply the number 1 as  string argument and also as the second function's arguement
-  randAlphaNumericStringGen(4, "1", (err, res)=>{
+  randStringGen(4, "1", (err, res)=>{
      if(err) console.log(err);
      else console.log(res);
    
   });
 
 // To generate an alphanumeric set of strings you must pass "1b" as the function's second arguement
-randAlphaNumericStringGen(0, "1b", (err, res)=>{
+randStringGen(0, "1b", (err, res)=>{
      if(err) console.log(err);
      else console.log(res); 
   
@@ -46,7 +46,7 @@ randAlphaNumericStringGen(0, "1b", (err, res)=>{
 
 
   //promises
-  randAlphaNumericStringGen(0, "b")
+  randStringGen(0, "b")
   .then((res)=>{
     console.log(res)
   })
@@ -55,7 +55,7 @@ randAlphaNumericStringGen(0, "1b", (err, res)=>{
   })
 
 
-  randAlphaNumericStringGen(20, "1b")
+  randStringGen(20, "1b")
   .then((res)=>{
     console.log(res)
   })
