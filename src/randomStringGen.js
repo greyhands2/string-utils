@@ -2,7 +2,7 @@ let randAlphaNumericStringGen = function(stringLength, type, callYouBack){
   let errMsg; 
 
 
-  if (type !== "1" && type !== "b" && type !== "1b") errMsg = "String Length Must Be a Number";
+  if (type !== "1" && type !== "b" && type !== "1b") errMsg = "function arguement, type, must be either '1', 'b' or '1b'";
   
   if(typeof stringLength !== 'number' || stringLength <= 0) errMsg = 'String Length Must Be a Number';
 
