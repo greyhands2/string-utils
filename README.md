@@ -19,7 +19,7 @@ test.js
 ```javascript
 const {randStringGen } =require('osas-string-utils');
 
-
+// To generate any length of random strings you send the length of string you intend to generate as the first arguement of the function then also the type which could be number only, alphabets only or alphanumeric
 
 
 const main = async() => {
@@ -73,7 +73,6 @@ main();
   
 
 ```
-
 
 ## String To Sentence Case
 
