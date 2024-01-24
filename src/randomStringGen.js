@@ -48,4 +48,4 @@ const doWork = function(stringLength, type){
     return res;
 }  
 
-modules.export = randAlphaNumericStringGen;
+module.exports = randAlphaNumericStringGen;

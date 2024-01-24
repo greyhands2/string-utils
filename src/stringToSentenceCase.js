@@ -35,4 +35,4 @@ const doWork = function(streeng){
 }
 
 
-modules.export = toSentenceCase;
+module.exports = toSentenceCase;
